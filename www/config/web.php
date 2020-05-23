@@ -7,9 +7,14 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'defaultRoute' => 'home/index',
+    'language' => 'ru',
+    'name' => 'BIG SHOPE',
+    'layout' => 'grocery',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
+        
     ],
     'components' => [
         'request' => [
