@@ -1,7 +1,73 @@
 <div class="container">
     <div class="shoes-grid">
 
-        <?= $this->render('//layouts/inc/sidebar');?>
+        <div class="wrap-in">
+            <!---->
+            <div class="slide-grid">
+                <div class="slider">
+                    <div class="callbacks_container">
+                        <ul class="rslides" id="slider">
+                            <li>
+                                <a href="single.html">
+                                    <div class="banner-matter">
+                                        <div class="col-md-5 banner-bag">
+                                            <img class="img-responsive " src="images/bag.jpg" alt=" " />
+                                        </div>
+                                        <div class="col-md-7 banner-off">							
+                                            <h2>FLAT 50% 0FF</h2>
+                                            <label>FOR ALL PURCHASE <b>VALUE</b></label>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>					
+                                            <span class="on-get">GET NOW</span>
+                                        </div>
+
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="single.html">
+                                    <div class="banner-matter">
+                                        <div class="col-md-5 banner-bag">
+                                            <img class="img-responsive " src="images/bag.jpg" alt=" " />
+                                        </div>
+                                        <div class="col-md-7 banner-off">							
+                                            <h2>FLAT 50% 0FF</h2>
+                                            <label>FOR ALL PURCHASE <b>VALUE</b></label>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>					
+                                            <span class="on-get">GET NOW</span>
+                                        </div>
+
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="single.html">
+                                    <div class="banner-matter">
+                                        <div class="col-md-5 banner-bag">
+                                            <img class="img-responsive " src="images/bag.jpg" alt=" " />
+                                        </div>
+                                        <div class="col-md-7 banner-off">							
+                                            <h2>FLAT 50% 0FF</h2>
+                                            <label>FOR ALL PURCHASE <b>VALUE</b></label>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>					
+                                            <span class="on-get">GET NOW</span>
+                                        </div>
+
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!----->
+
+                </div>
+
+            </div>
+        </div>
         <!---->
 
         <div class="shoes-grid-left">
@@ -220,55 +286,7 @@
 
     </div>   
     <div class="sub-cate">
-        <div class=" top-nav rsidebar span_1_of_left">
-            <h3 class="cate">CATEGORIES</h3>
-            <ul class="menu">
-                <li class="item1"><a href="#">Curabitur sapien<img class="arrow-img" src="images/arrow1.png" alt=""/> </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item2"><a href="#">Dignissim purus <img class="arrow-img " src="images/arrow1.png" alt=""/></a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item3"><a href="#">Ultrices id du<img class="arrow-img img-arrow" src="images/arrow1.png" alt=""/> </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="product.html">Automatic Fails</a></li>
-                    </ul>
-                </li>
-                <li class="item4"><a href="#">Cras iacaus rhone <img class="arrow-img img-left-arrow" src="images/arrow1.png" alt=""/></a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="kid-menu">
-                        <li><a href="product.html">Tempus pretium</a></li>
-                        <li ><a href="product.html">Dignissim neque</a></li>
-                        <li ><a href="product.html">Ornared id aliquet</a></li>
-                    </ul>
-                </li>
-                <ul class="kid-menu ">
-                    <li><a href="product.html">Commodo sit</a></li>
-                    <li ><a href="product.html">Urna ac tortor sc</a></li>
-                    <li><a href="product.html">Ornared id aliquet</a></li>
-                    <li><a href="product.html">Urna ac tortor sc</a></li>
-                    <li ><a href="product.html">Eget nisi laoreet</a></li>
-                    <li><a href="product.html">Faciisis ornare</a></li>
-                    <li class="menu-kid-left"><a href="contact.html">Contact us</a></li>
-                </ul>
-            </ul>
-        </div>
+       <?= $this->render('//layouts/inc/sidebar');?>
         <!--initiate accordion-->
 
         <div class=" chain-grid menu-chain">
