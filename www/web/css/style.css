@@ -234,6 +234,9 @@ ul.cute li{
 }
 .arrow-img {
 	padding: 0em 0em 0 6.5em;
+        position: absolute;
+            right: 10px;
+            top: 15px;
 }
 .img-arrow{
 	padding: 0 0 0 8em;
@@ -1244,8 +1247,13 @@ select.in-drop {
 @media(max-width:1280px){
 	.arrow-img {
 		padding: 0em 0em 0 5.5em;
+                position: absolute;
+            right: 10px;
+            top: 15px;
 	}	
 	.img-arrow {
+            position: absolute;
+            right: 0;
 	padding: 0 0 0 7.2em;
 	}
 	.img-left-arrow {
@@ -1278,6 +1286,9 @@ select.in-drop {
 }
 .arrow-img {
 	padding: 0em 0em 0 3.5em;
+        position: absolute;
+            right: 10px;
+            top: 15px;
 }
 .img-arrow {
 	padding: 0 0 0 5em;
@@ -1408,6 +1419,10 @@ a.get-cart {
 }
 .arrow-img {
 	padding: 0em 0em 0 33.5em;
+         position: absolute;
+            right: 10px;
+            top: 15px;
+            
 }
 .img-arrow {
 	padding: 0 0 0 35em;
@@ -1471,6 +1486,9 @@ a.get-cart {
 }
 .arrow-img {
 	padding: 0em 0em 0 25.5em;
+        position: absolute;
+            right: 10px;
+            top: 15px;
 }
 .img-arrow {
 	padding: 0 0 0 27em;
@@ -1584,6 +1602,9 @@ p.m_text {
 }
 .arrow-img {
 	padding: 0em 0em 0 15.3em;
+        position: absolute;
+            right: 10px;
+            top: 15px;
 }
 .img-arrow {
 	padding: 0 0 0 17em;
@@ -1767,6 +1788,9 @@ img.banner-bag {
 }
 .arrow-img {
 	padding: 0em 0em 0 7em;
+        position: absolute;
+            right: 10px;
+            top: 15px;
 }
 .img-arrow {
 	padding: 0 0 0 8.8em;

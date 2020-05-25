@@ -1,4 +1,17 @@
-  <div class=" top-nav rsidebar span_1_of_left">
+
+<div class=" top-nav rsidebar span_1_of_left">
+    <h3 class="cate">CATEGORIES</h3>
+    
+    <?=
+    app\components\MenuWidget::widget([
+        'tpl' => 'menu',
+        'ul_class'=>'menu',
+    ])
+    ?>
+        
+</div>
+
+<!-- <div class=" top-nav rsidebar span_1_of_left">
             <h3 class="cate">CATEGORIES</h3>
             <ul class="menu">
                 <li class="item1"><a href="#">Curabitur sapien<img class="arrow-img" src="images/arrow1.png" alt=""/> </a>
@@ -46,4 +59,4 @@
                     <li class="menu-kid-left"><a href="contact.html">Contact us</a></li>
                 </ul>
             </ul>
-        </div>
+        </div> -->
