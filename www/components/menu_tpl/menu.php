@@ -1,6 +1,6 @@
 
 <li> 
-    <?php $str = isset($category['children']) ? "#" : \yii\helpers\Url::to(['categoy/view', 'id' => $category['id']]); ?>
+    <?php $str = isset($category['children']) ? "#" : \yii\helpers\Url::to(['category/view', 'id' => $category['id']]); ?>
     <a href=<?= $str ?>>
         <?= $category['title']; ?>
         <?php if (isset($category['children'])) echo '<img class="arrow-img" src="images/arrow1.png" alt=""/>' ?>
