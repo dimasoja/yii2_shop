@@ -1,7 +1,22 @@
+<?php 
+$a_href = '';
+$ul_open = '';
+$ul_close = '';
+if (isset($category['children'])) 
+    {
+       $a_href = '#'; 
+    }
+    else {
+       $ul_open = '<ul class="kid_menu">';
+       $ul_close = '</ul>'; 
+       $a_href=  \yii\helpers\Url::to(['category/view', 'id' => $category['id']]);
+    }
+ ?>
 
+<?=$ul_open?>
 <li> 
-    <?php $str = isset($category['children']) ? "#" : \yii\helpers\Url::to(['category/view', 'id' => $category['id']]); ?>
-    <a href=<?= $str ?>>
+   
+    <a href=<?= $a_href ?>>
         <?= $category['title']; ?>
         <?php if (isset($category['children'])) echo '<img class="arrow-img" src="images/arrow1.png" alt=""/>' ?>
     </a> 
@@ -11,6 +26,6 @@
         </ul>
     <?php endif ?>
 </li>
-
+<?=$ul_close?>
 
 

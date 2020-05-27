@@ -14,8 +14,8 @@ AppAsset::register($this);
     <head>
         <?php $this->registerCsrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
-<?php $this->head() ?>
-
+        <?php $this->head() ?>
+        <base href="/">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!--fonts-->
@@ -24,7 +24,7 @@ AppAsset::register($this);
         <!--script-->
     </head>
     <body>
-<?php $this->beginBody() ?>
+        <?php $this->beginBody() ?>
 
 
         <meta name="robots" content="noindex">
@@ -79,8 +79,8 @@ AppAsset::register($this);
                         <div class="search">
                             <form>
                                 <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {
-                                                                    this.value = '';
-                                                                }" >
+                                            this.value = '';
+                                        }" >
                                 <input type="submit"  value="SEARCH">
                             </form>
                         </div>
@@ -102,7 +102,7 @@ AppAsset::register($this);
         <!---->
         <!---728x90--->
 
-       <?=$content?>
+        <?= $content ?>
 
         <!---->
         <!---728x90--->
@@ -115,8 +115,8 @@ AppAsset::register($this);
                         <div class="sub-left-right">
                             <form>
                                 <input type="text" value="Enter email here"onfocus="this.value = '';" onblur="if (this.value == '') {
-                                                                    this.value = 'Enter email here';
-                                                                }" />
+                                            this.value = 'Enter email here';
+                                        }" />
                                 <input type="submit" value="SUBSCRIBE" />
                             </form>
                         </div>
@@ -198,7 +198,7 @@ AppAsset::register($this);
                 </div>
             </div>
         </div>
-<?php $this->endBody() ?>
+        <?php $this->endBody() ?>
     </body>
 
     <!-- Mirrored from p.w3layouts.com/demos/bigshope/web/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 May 2020 13:35:33 GMT -->
