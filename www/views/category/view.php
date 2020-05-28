@@ -45,6 +45,11 @@
 
 
         <div class="clearfix"> </div>
+        <div class = "col-md-12">
+            <?=  \yii\widgets\LinkPager::widget([
+                'pagination' => $pages,
+            ])?>
+        </div>
     </div>
 
     <div class="sub-cate">
