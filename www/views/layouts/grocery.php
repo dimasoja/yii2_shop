@@ -76,9 +76,9 @@ AppAsset::register($this);
                         <div class="logo">
                             <a href="<?= \yii\helpers\Url::home() ?>"><img src="images/logo.png" alt=" " /></a>
                         </div>
-                        <div class="search">
-                            <form>
-                                <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {
+                        <div class="search" >
+                            <form action = "<?= \yii\helpers\Url::to(['category/search'])?>" method="get">
+                                <input type="text" name="q" value="" onfocus="this.value = '';" onblur="if (this.value == '') {
                                             this.value = '';
                                         }" >
                                 <input type="submit"  value="SEARCH">

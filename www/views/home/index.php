@@ -116,7 +116,7 @@
                 <a href=<?= \yii\helpers\Url::to(['product/view', 'id'=>$offer->id])?>><?= \yii\helpers\Html::img("@web/products/{$offer->img}", ['alt'=>$offer->title])?></a>
                 <span class="star"> </span>
                 <div class="grid-chain-bottom">
-                    <h6><a href=<?= \yii\helpers\Url::to(['product/view', 'id'=>$offer->id])?>>Lorem ipsum dolor</a></h6>
+                    <h6><a href=<?= \yii\helpers\Url::to(['product/view', 'id'=>$offer->id])?>><?=$offer->title?></a></h6>
                     <div class="star-price">
                         <div class="dolor-grid"> 
                             <span class="actual"><?=$offer->price?></span>
