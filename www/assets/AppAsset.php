@@ -23,6 +23,7 @@ class AppAsset extends AssetBundle
         'css/bootstrap.css',
         'css/style.css',
         'css/flexslider.css',
+        'css/flexslider.css',
         '//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800',
         
     ];
@@ -31,6 +32,9 @@ class AppAsset extends AssetBundle
        
         'js/responsiveslides.min.js',
         'js/jquery.flexslider.js',
+        'js/imagezoom.js',
+        'js/jquery.flexslider.js',
+        
         'js/main.js',
     ];
     public $depends = [

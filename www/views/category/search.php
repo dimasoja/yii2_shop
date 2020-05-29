@@ -59,8 +59,11 @@
         <div class=" chain-grid menu-chain">
             <a href="single.html"><img class="img-responsive chain" src="images/wat.jpg" alt=" " /></a>	   		     		
             <div class="grid-chain-bottom chain-watch">
-                <span class="actual dolor-left-grid">300$</span>
-                <span class="reducedfrom">500$</span>  
+                <span class="actual dolor-left-grid"><?=$product->price?></span>
+                     <?php if((float)$product->old_price): ?>
+                                <span class="reducedfrom">$<?= $product->old_price ?></span>
+                            <?php endif; ?>
+                 
                 <h6><a href="single.html">Lorem ipsum dolor</a></h6>  		     			   		     										
             </div>
         </div>
