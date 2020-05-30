@@ -31,7 +31,8 @@
                 </div>
                 <h4><a href="#"> <?=$product->title?></a></h4>
                 <p>It is a long established fact that a reader</p>
-                Rs. 499
+                <a class="now-get get-cart add-to-cart" href="<?= \yii\helpers\Url::to(['cart/add', 'id'=>$product->id])?>"
+                        data-id="<?=$product->id?>"> Add to Cart</a> 
             </div>
             <?php endforeach;?>
         </div>

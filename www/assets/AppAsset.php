@@ -28,8 +28,8 @@ class AppAsset extends AssetBundle
         
     ];
     public $js = [
-        'js/jquery.min.js',
-       
+        'js/jquery-1.11.1.min.js',
+        'js/bootstrap.min.js',
         'js/responsiveslides.min.js',
         'js/jquery.flexslider.js',
         'js/imagezoom.js',

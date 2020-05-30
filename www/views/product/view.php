@@ -24,7 +24,8 @@
                                 <span class="reducedfrom">$<?= $product->old_price ?></span>
                             <?php endif; ?>
                      
-                    <a class="now-get get-cart-in" href="#">ADD TO CART</a> 
+                   <a class="now-get get-cart add-to-cart" href="<?= \yii\helpers\Url::to(['cart/add', 'id'=>$product->id])?>"
+                        data-id="<?=$product->id?>"> Add to Cart</a> 
                     <div class="clearfix"></div>
                 </div>
                 <h6>100 items in stock</h6>
@@ -41,7 +42,9 @@
 
 
             </div>
+            
             <div class="clearfix"> </div>
+            
         </div>
        
 

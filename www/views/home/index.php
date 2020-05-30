@@ -136,7 +136,8 @@
                                 <label for="rating-input-1-1" class="rating-star"> </label>
                             </span>
                         </div>
-                        <a class="now-get get-cart" href="#">ADD TO CART</a> 
+                        <a class="now-get get-cart add-to-cart" href="<?= \yii\helpers\Url::to(['cart/add', 'id'=>$offer->id])?>"
+                        data-id="<?=$offer->id?>"> Add to Cart</a> 
                         <div class="clearfix"> </div>
                     </div>
                 </div>

@@ -92,7 +92,33 @@ AppAsset::register($this);
                             <li><a href="login.html"><span> </span>LOGIN</a></li> |
                             <li ><a href="register.html">SIGNUP</a></li>
                         </ul>
-                        <div class="cart"><a href="#"><span> </span>CART</a></div>
+                        <div class="cart">
+                            <!-- Button trigger modal -->
+<button type="button" class="button" data-toggle="modal" data-target="#modal-cart">
+  <span></span>CART $0
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупку</button>
+        <a href="<?=\yii\helpers\Url::to(['cart/view'])?>" class="btn btn-success">Оформить заказ</a>
+        <button type="button" class="btn btn-danger">Очистить</button>
+      </div>
+    </div>
+  </div>
+</div>
+                          
+                        </div>
                         <div class="clearfix"> </div>
                     </div>
                     <div class="clearfix"> </div>	
