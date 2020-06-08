@@ -1,0 +1,1 @@
+<?php debug($_SESSION)?>
