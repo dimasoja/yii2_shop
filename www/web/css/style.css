@@ -105,7 +105,7 @@ ul.support li a {
 }
 
 
-.cart button.button span {
+.cart button.button  .cart-img{
 	background: url(../images/img-sprite.png) -170px  -28px;
 	width: 26px;
 	height: 26px;
@@ -115,11 +115,15 @@ ul.support li a {
 .cart button.button {
 	background: #fff;
         border:0px;
-	width: 100px;
+	width: 130px;
 	height: 30px;
         
 	display: inline-block;
 	vertical-align: middle;
+}
+
+#modal-cart img{
+    max-height: 40px;
 }
 
 .cart button.button:hover {

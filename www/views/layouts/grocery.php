@@ -94,8 +94,8 @@ AppAsset::register($this);
                         </ul>
                         <div class="cart">
                             <!-- Button trigger modal -->
-<button type="button" class="button" data-toggle="modal" data-target="#modal-cart">
-  <span></span>CART $0
+                            <button onclick="getCart()" type="button" class="button" data-toggle="modal" data-target="#modal-cart">
+  <span class="cart-img"></span> CART <span class="cart-sum"> $<?=isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum']: '0'?></span>
 </button>
 
 <!-- Modal -->
@@ -107,7 +107,7 @@ AppAsset::register($this);
         <h4 class="modal-title" id="myModalLabel">Корзина</h4>
       </div>
       <div class="modal-body">
-        ...
+        
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупку</button>
