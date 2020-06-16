@@ -1267,7 +1267,93 @@ select.in-drop {
 	outline:none;
 	
 }
+
 /*--responsive--*/
+.cart span.del-item{
+    color:#FA1818;
+    top: 0;
+    cursor: pointer;
+}
+
+.w3l_banner_nav_right {
+    float: right;
+    width: 70%;
+}
+
+.checkout-right {
+    margin-top: 3em;
+}
+
+table.timetable_sub {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.timetable_sub thead {
+    background: #004284;
+}
+
+.timetable_sub th, .timetable_sub td {
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    color: #212121;
+}
+
+.timetable_sub thead {
+    background: #004284;
+}
+
+.timetable_sub td {
+    border: 1px solid #CDCDCD;
+}
+
+.quantity-select .entry.value-minus {
+    margin-left: 0;
+}
+
+.value {
+    cursor: default;
+    width: 40px;
+    height: 40px;
+    padding: 8px 0px;
+    color: #A9A9A9;
+    line-height: 24px;
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+    text-align: center;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.value-plus {
+    height: 40px;
+    line-height: 24px;
+    width: 40px;
+    margin-right: 3px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    border: 1px solid #b2b2b2;
+    vertical-align: bottom;
+}
+
+.timetable_sub td {
+    border: 1px solid #CDCDCD;
+}
+
+.timetable_sub td {
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    color: #212121;
+}
+
 @media(max-width:1440px){
 
 }

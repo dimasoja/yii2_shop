@@ -22,8 +22,9 @@ class AppAsset extends AssetBundle
     public $css = [
         'css/bootstrap.css',
         'css/style.css',
+       
         'css/flexslider.css',
-        'css/flexslider.css',
+        
         '//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800',
         
     ];

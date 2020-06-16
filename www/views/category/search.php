@@ -56,17 +56,7 @@
         <?= $this->render('//layouts/inc/sidebar'); ?>
         <!--initiate accordion-->
 
-        <div class=" chain-grid menu-chain">
-            <a href="single.html"><img class="img-responsive chain" src="images/wat.jpg" alt=" " /></a>	   		     		
-            <div class="grid-chain-bottom chain-watch">
-                <span class="actual dolor-left-grid"><?=$product->price?></span>
-                     <?php if((float)$product->old_price): ?>
-                                <span class="reducedfrom">$<?= $product->old_price ?></span>
-                            <?php endif; ?>
-                 
-                <h6><a href="single.html">Lorem ipsum dolor</a></h6>  		     			   		     										
-            </div>
-        </div>
+        
         <a class="view-all all-product" href="product.html">VIEW ALL PRODUCTS<span> </span></a> 	
     </div>
     <div class="clearfix"> </div>        	         

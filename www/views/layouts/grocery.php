@@ -77,7 +77,7 @@ AppAsset::register($this);
                             <a href="<?= \yii\helpers\Url::home() ?>"><img src="images/logo.png" alt=" " /></a>
                         </div>
                         <div class="search" >
-                            <form action = "<?= \yii\helpers\Url::to(['category/search'])?>" method="get">
+                            <form action = "<?= \yii\helpers\Url::to(['category/search']) ?>" method="get">
                                 <input type="text" name="q" value="" onfocus="this.value = '';" onblur="if (this.value == '') {
                                             this.value = '';
                                         }" >
@@ -95,29 +95,29 @@ AppAsset::register($this);
                         <div class="cart">
                             <!-- Button trigger modal -->
                             <button onclick="getCart()" type="button" class="button" data-toggle="modal" data-target="#modal-cart">
-  <span class="cart-img"></span> CART <span class="cart-sum"> $<?=isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum']: '0'?></span>
-</button>
+                                <span class="cart-img"></span> CART <span class="cart-sum"> $<?= isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] : '0' ?></span>
+                            </button>
 
-<!-- Modal -->
-<div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Корзина</h4>
-      </div>
-      <div class="modal-body">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупку</button>
-        <a href="<?=\yii\helpers\Url::to(['cart/view'])?>" class="btn btn-success">Оформить заказ</a>
-        <button type="button" class="btn btn-danger">Очистить</button>
-      </div>
-    </div>
-  </div>
-</div>
-                          
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупку</button>
+                                            <a href="<?= \yii\helpers\Url::to(['cart/view']) ?>" class="btn btn-success">Оформить заказ</a>
+                                            <button type="button" onclick="clearCart()" class="btn btn-danger">Очистить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="clearfix"> </div>
                     </div>
